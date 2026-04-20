@@ -1,0 +1,25 @@
+<svg width="520" height="200" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Gradient -->
+<defs>
+<linearGradient id="sparkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#6C63FF"></stop>
+<stop offset="100%" stop-color="#00C9A7"></stop>
+</linearGradient>
+</defs>
+
+<!-- Hexagon -->
+<polygon points="90,30 170,30 210,100 170,170 90,170 50,100" fill="none" stroke="url(#sparkGrad)" stroke-width="8"></polygon>
+
+<!-- Inner Hexagon -->
+<polygon points="105,50 160,50 190,100 160,150 105,150 75,100" fill="none" stroke="#6C63FF" stroke-width="3"></polygon>
+
+<!-- Spark -->
+<path d="M125 70 L135 95 L160 100 L135 105 L125 130 L115 105 L90 100 L115 95 Z" fill="#00C9A7"></path>
+
+<!-- Text -->
+<text x="240" y="120" font-family="Georgia, serif" font-size="72" font-weight="700" fill="url(#sparkGrad)">
+SparkX
+</text>
+
+</svg>
